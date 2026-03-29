@@ -4,15 +4,16 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 import budgetwiseimage from '../assets/budgetwise.PNG';
 import sfimage from '../assets/sf.jpg';
 import awsimage from '../assets/aws.png';
+import primage from '../assets/project1.jpeg';
 
 const projects = [
   {
-    title: 'LightGBM based Sales Prediction (MIS)',
-    description: 'Engineered a sales forecasting system using LightGBM with feature engineering and Optuna tuning, improving prediction accuracy on Walmart sales data. Deployed as a Flask web app with real-time forecasts and visual dashboards, enabling data-driven inventory optimization. Published research in IJARSCT journal.',
-    image: sfimage,
-    technologies: ['Python', 'LightGBM', 'Flask', 'Optuna'],
+    title: 'GenAI Driven Financial Intelligence Platform',
+    description: 'Collaboratively developed a GenAI-powered financial analysis platform that enables analysts and investors to upload financial reports, automatically extract key financial data, calculate critical ratios, and generate AI-driven insights through an interactive dashboard and automated presentations.',
+    image: primage,
+    technologies: ['Python', 'FastAPI', 'Next.js', 'React', 'Tailwind CSS', 'PyMuPDF', 'spaCy', 'LLM integration (Groq/Llama)', 'NetworkX.'],
     liveUrl: '',
-    githubUrl: 'https://github.com/omkaravasare/sales_prediction',
+    githubUrl: 'https://github.com/pranavtdhote/GenAI-Financial-Intelligence-Platform',
   },
   {
     title: 'BudgetWise: AI Finance Manager',
@@ -27,6 +28,14 @@ const projects = [
     description: 'Architected a scalable infrastructure using EC2 Auto Scaling Groups and Application Load Balancer for high availability and fault tolerance. Implemented multi-AZ deployment with automated scaling policies to handle variable traffic loads and ensure 99.9% uptime.',
     image: awsimage,
     technologies: ['AWS', 'EC2', 'ALB', 'Auto Scaling', 'Cloud'],
+  },
+  {
+    title: 'LightGBM based Sales Prediction (MIS)',
+    description: 'Engineered a sales forecasting system using LightGBM with feature engineering and Optuna tuning, improving prediction accuracy on Walmart sales data. Deployed as a Flask web app with real-time forecasts and visual dashboards, enabling data-driven inventory optimization. Published research in IJARSCT journal.',
+    image: sfimage,
+    technologies: ['Python', 'LightGBM', 'Flask', 'Optuna'],
+    liveUrl: 'https://www.researchgate.net/publication/390476554_LightGBM_based_Machine_Learning_Approach_for_Sales_Prediction',
+    githubUrl: 'https://github.com/omkaravasare/sales_prediction',
   },
 ];
 
