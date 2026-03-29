@@ -12,7 +12,6 @@ const projects = [
     description: 'Collaboratively developed a GenAI-powered financial analysis platform that enables analysts and investors to upload financial reports, automatically extract key financial data, calculate critical ratios, and generate AI-driven insights through an interactive dashboard and automated presentations.',
     image: primage,
     technologies: ['Python', 'FastAPI', 'Next.js', 'React', 'Tailwind CSS', 'PyMuPDF', 'spaCy', 'LLM integration (Groq/Llama)', 'NetworkX.'],
-    // liveUrl: '',
     githubUrl: 'https://github.com/pranavtdhote/GenAI-Financial-Intelligence-Platform',
   },
   {
@@ -20,7 +19,6 @@ const projects = [
     description: 'A Java full stack personal finance manager featuring Spring Security JWT authentication, BCrypt password hashing, and RESTful APIs backed by MongoDB. Integrated Groq AI (Llama 3.3 70B) for personalized financial insights, interactive analytics dashboards, and monthly report generation with a responsive React 18 frontend.',
     image: budgetwiseimage, 
     technologies: ['Java 17', 'Spring Boot 3.2', 'React 18', 'MongoDB', 'Groq AI'],
-    // liveUrl: '',
     githubUrl: 'https://github.com/omkaravasare/budgetwise-app',
   },
   {
