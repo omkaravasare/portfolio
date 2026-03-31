@@ -52,7 +52,7 @@ export default function Preloader() {
           <motion.h1
             initial={{ opacity: 0.5, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
+            transition={{ delay: 0.3 }}
             className="text-2xl font-heading font-bold text-white mb-6"
           >
           Hey Welcome !! <br></br>Provisioning Resources 👨‍💻⚙️
