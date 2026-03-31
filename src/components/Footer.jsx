@@ -11,7 +11,7 @@ export default function Footer() {
               Omkar Avasare
             </a>
             <p className="text-gray-600 text-sm mt-1">
-              Built with <FiHeart className="inline text-accent text-xs" /> and modern web tech
+              Built with <FiHeart className="inline text-accent text-xs" /> and modern web tech 👨‍💻
             </p>
           </div>
 
