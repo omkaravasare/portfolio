@@ -44,18 +44,18 @@ export default function Preloader() {
             <div className="absolute inset-3 border border-cyan/20 rounded-full animate-spin-slow" style={{ animationDirection: 'reverse', animationDuration: '15s' }} />
             <div className="absolute inset-6 border border-violet/20 rounded-full animate-spin-slow" style={{ animationDuration: '20s' }} />
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-2xl font-heading font-bold gradient-text">P</span>
+              <span className="text-2xl font-heading font-bold gradient-text">OA</span>
             </div>
           </div>
 
           {/* Name */}
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0.5, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.5 }}
             className="text-2xl font-heading font-bold text-white mb-6"
           >
-            Portfolio
+          Hey Welcome !! <br></br>Provisioning Resources 👨‍💻⚙️
           </motion.h1>
 
           {/* Progress bar */}
