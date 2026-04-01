@@ -5,6 +5,7 @@ import budgetwiseimage from '../assets/budgetwise.PNG';
 import sfimage from '../assets/sf.jpg';
 import awsimage from '../assets/aws.png';
 import primage from '../assets/project1.jpeg';
+import btcimage from '../assets/btc.png';
 
 const projects = [
   {
