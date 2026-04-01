@@ -35,6 +35,13 @@ const projects = [
     liveUrl: 'https://www.researchgate.net/publication/390476554_LightGBM_based_Machine_Learning_Approach_for_Sales_Prediction',
     githubUrl: 'https://github.com/omkaravasare/sales_prediction',
   },
+  {
+  title: 'Bitcoin Price Prediction using Linear Regression',
+  description: 'Developed a machine learning model to predict the next-day closing price of Bitcoin using historical cryptocurrency data. The system performs data preprocessing, feature engineering (lag features, moving averages, volatility, and returns), and trains a Linear Regression model to forecast price trends. Model performance is evaluated using R², MAE, and RMSE metrics and visualized through prediction vs actual graphs, residual plots, and error histograms to analyze accuracy and market behavior.',
+  image: btcimage,
+  technologies: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Jupyter Notebook', 'RobustScaler', 'Linear Regression'],
+  githubUrl: 'https://github.com/omkaravasare/bitcoinprice_prediction'
+  },
 ];
 
 const cardVariants = {
