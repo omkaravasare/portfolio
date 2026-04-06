@@ -101,7 +101,7 @@ export default function Navbar() {
 
             {/* Download Resume Button */}
             <a
-              href="/Omkar_Resume.pdf"
+              href="/Omkar Avasare Resume.pdf"
               download
               className="ml-4 inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-dark-950 bg-gradient-to-r from-accent to-cyan rounded-xl hover:shadow-glow hover:scale-105 transition-all duration-300"
             >
@@ -151,7 +151,7 @@ export default function Navbar() {
 
                 {/* Mobile Download Resume Button */}
                 <a
-                  href="/Omkar_Resume.pdf"
+                  href="/Omkar Avasare Resume.pdf"
                   download
                   onClick={() => setMenuOpen(false)}
                   className="mt-2 inline-flex items-center justify-center gap-2 px-5 py-2.5 text-sm font-semibold text-dark-950 bg-gradient-to-r from-accent to-cyan rounded-xl hover:shadow-glow transition-all duration-300"
