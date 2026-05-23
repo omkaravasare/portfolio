@@ -4,7 +4,7 @@ import SectionWrapper from './SectionWrapper';
 import { FiSend, FiGithub, FiLinkedin, FiMail, FiMapPin } from 'react-icons/fi';
 
 const socials = [
-  { icon: <FiGithub />, label: 'GitHub', url: 'https://github.com/omkaravasare', color: 'hover:text-white' },
+  { icon: <FiGithub />, label: 'GitHub', url: 'https://github.com/omkaravasare1', color: 'hover:text-white' },
   { icon: <FiLinkedin />, label: 'LinkedIn', url: 'https://linkedin.com/in/omkar-avasare', color: 'hover:text-blue-400' },
   { icon: <FiMail />, label: 'Email', url: 'mailto:omkaravasare2@gmail.com', color: 'hover:text-cyan' },
 ];
